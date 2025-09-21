@@ -23,7 +23,6 @@ Performance is evaluated using **BLEU** and **METEOR** scores on a subset of the
 ---
 
 
----
 
 ## Methodology
 
