@@ -36,7 +36,7 @@ This project uses the **Mini COCO 2014 dataset**, which is a smaller subset of t
 - **Attention-based LSTM decoder** for caption generation.  
 - Training with **label smoothing** and **masking** for padded tokens.  
 - Inference with **Beam Search** (beam size = 5).  
-- Evaluation using **BLEU-1 → BLEU-4** and **METEOR**.  
+- Evaluation using **BLEU** and **METEOR**.  
 
 ---
 
