@@ -1,8 +1,10 @@
-# Image Captioning
+# VisioCap : Image Captioning
 
 
 This project implements an **image captioning system** that generates natural language descriptions for images.  
+
 It uses a **CNN encoder (EfficientNet-B3)** for extracting visual features and a **decoder (LSTM with attention)** to produce captions.  
+
 Performance is evaluated using **BLEU** and **METEOR** scores on a subset of the COCO 2014 dataset.
 
 ---
@@ -43,13 +45,10 @@ Performance is evaluated using **BLEU** and **METEOR** scores on a subset of the
 ### 4. Training
 - **Loss:** Cross-Entropy with Label Smoothing (ε = 0.1).  
 - Masking ensures padding tokens do not affect training.  
-- **Optimizer:** Adam with learning rate = 1e-4.  
-- Training stopped around **epoch 43** with best validation loss ≈ **3.49**.  
-
+- **Optimizer:** Adam with learning rate = 1e-4.
+- 
 ### 5. Inference
-- Captions generated using **Beam Search** (beam width = 5).  
-- Beam search improves fluency compared to greedy decoding by exploring multiple possible sequences.  
-
+- Used **Beam Search** (beam width = 5) to generate captions by exploring multiple candidate sequences, improving fluency over **greedy decoding**.
 ---
 
 ## Evaluation Metrics
@@ -62,6 +61,7 @@ Measures **n-gram overlap** between generated and reference captions.
 - **BLEU-2**: 0.53  
 - **BLEU-3**: 0.37  
 - **BLEU-4**: 0.26  
+
 
 ### 2.METEOR (Metric for Evaluation of Translation with Explicit ORdering)
 Considers **recall, stemming, and synonyms**, making it more semantic than BLEU.
