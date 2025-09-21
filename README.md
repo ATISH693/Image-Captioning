@@ -95,7 +95,7 @@ A few example images used for testing and demonstration are included in the `Ima
 
 You can view the folder directly on GitHub here:   [View Images Folder](./Images/)
 
-<img src="./Images/caption_1.png" alt="Caption 1" width="450""/>
+<img src="./Images/caption_1.png" alt="Caption 1" width="450"/>
 
 ---
 
@@ -112,12 +112,12 @@ You can view the folder directly on GitHub here:   [View Images Folder](./Images
 ---
 
 
-<img src="./Images/caption_4.png" alt="caption_5" width="450"/>
+<img src="./Images/caption_5.png" alt="Caption 5" width="450"/>
 
 ---
 
 
-<img src="./Images/caption_4.png" alt="caption_6" width="450"/>
+<img src="./Images/caption_6.png" alt="Caption 6" width="450"/>
 
 
 
