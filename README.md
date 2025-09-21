@@ -3,7 +3,9 @@
 
 This project implements an **image captioning system** that generates natural language descriptions for images.  
 
-It uses a **CNN encoder (EfficientNet-B3)** for extracting visual features and a **decoder (LSTM with attention)** to produce captions.  
+It uses a **EfficientNet-B3 Encoder** for extracting visual features and a **LSTM with MultiHead-Attention Decoder** to produce captions.
+
+Also used **Glove200 Embeddings** for text representation.
 
 Performance is evaluated using **BLEU** and **METEOR** scores on a subset of the COCO 2014 dataset.
 
