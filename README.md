@@ -94,7 +94,7 @@ You can view the folder directly on GitHub here:   [View Images Folder](./Images
 **Example images:**
 
 
-## Sample Images Side by Side
+## Sample Images 
 
 <p>
   <img src="./Images/caption_1.png" alt="Caption 1" width="450" style="margin-right: 10px;"/>
