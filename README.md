@@ -21,6 +21,7 @@ This project uses the **Mini COCO 2014 dataset** from Kaggle, which is a smaller
   - **Validation:** 9,348 captions (~1,878 images)  
   - **Test:** 9,344 captions (~1,879 images)  
 
+--- 
 
 ## Features
 
