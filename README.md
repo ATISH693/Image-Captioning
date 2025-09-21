@@ -17,9 +17,10 @@ Performance is evaluated using **BLEU** and **METEOR** scores on a subset of the
 This project uses the **Mini COCO 2014 dataset** from Kaggle, which is a smaller subset of the COCO 2014 dataset containing images with multiple captions.
 
 - **Data splits:** Split based on **unique image IDs** to prevent caption leakage across train, validation, and test sets.  
-  - **Train:** 74,709 captions (~15,026 images)  
-  - **Validation:** 9,348 captions (~1,878 images)  
-  - **Test:** 9,344 captions (~1,879 images)  
+
+  - **Train:** 74,709 captions (15,026 images)  
+  - **Validation:** 9,348 captions (1,878 images)  
+  - **Test:** 9,344 captions (1,879 images)  
 
 --- 
 
