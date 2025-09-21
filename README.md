@@ -59,7 +59,7 @@ This project uses the **Mini COCO 2014 dataset** from Kaggle, which is a smaller
 ### 4. Training
 - **Loss:** Cross-Entropy with Label Smoothing (ε = 0.1).  
 - Masking ensures padding tokens do not affect training.  
-- **Optimizer:** Adam with learning rate = 1e-4.
+- **Optimizer:** Adam with learning rate = 0.0001
 - 
 ### 5. Inference
 - Used **Beam Search** (beam width = 5) to generate captions by exploring multiple candidate sequences, improving fluency over **greedy decoding**.
