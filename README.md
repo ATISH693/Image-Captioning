@@ -95,12 +95,6 @@ A few example images used for testing and demonstration are included in the `Ima
 
 You can view the folder directly on GitHub here:   [View Images Folder](./Images/)
 
-
-**Example images:**
-
-
-## Sample Images 
-
 <img src="./Images/caption_1.png" alt="Caption 1" width="450""/>
 
 ---
