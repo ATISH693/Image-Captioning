@@ -17,7 +17,7 @@ Performance is evaluated using **BLEU** and **METEOR** scores on a subset of the
 This project uses the **Mini COCO 2014 dataset**, which is a smaller subset of the COCO 2014 dataset containing images with multiple captions.
 
 
-The Dataset comprising of all images and corresponding captions, is publicly available on [Kaggle](https://www.kaggle.com/datasets/nagasai524/mini-coco2014-dataset-for-image-captioning)
+**The Dataset comprising of all images and corresponding captions, is publicly available on** [Kaggle](https://www.kaggle.com/datasets/nagasai524/mini-coco2014-dataset-for-image-captioning)
 
 
 
