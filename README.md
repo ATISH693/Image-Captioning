@@ -16,6 +16,13 @@ Performance is evaluated using **BLEU** and **METEOR** scores on a subset of the
 
 This project uses the **Mini COCO 2014 dataset** from Kaggle, which is a smaller subset of the COCO 2014 dataset containing images with multiple captions.
 
+
+The Dataset used in this project, comprising all images and corresponding captions, is publicly available on
+<a href="https://www.kaggle.com/datasets/nagasai524/mini-coco2014-dataset-for-image-captioning" target="_blank">
+  <img src="https://img.shields.io/badge/Download%20Dataset-Kaggle-blue?style=for-the-badge&logo=kaggle" alt="Download Dataset">
+</a>
+
+
 - **Data splits:** Split based on **unique image IDs** to prevent caption leakage across train, validation, and test sets.  
 
   - **Train:** 74,709 captions (15,026 images)  
