@@ -56,7 +56,7 @@ This project uses the **Mini COCO 2014 dataset**, which is a smaller subset of t
 - Extracted features: `10 × 10 × 1536`, reshaped into `100 × 256` vectors for attention.  
 
 ### 3. Decoder: LSTM with Attention
-- Pretrained Glove-Word embeddings of size **200**.  
+- Pretrained **Glove-200** embeddings.
 - LSTM with hidden size **512**, initialized from global image features.  
 - Attention mechanism dynamically focuses on relevant image regions while generating words.  
 - Final dense layer predicts the next word over the vocabulary.  
