@@ -84,7 +84,19 @@ Considers **recall, stemming, and synonyms**, making it more semantic than BLEU.
 
 ---
 
-## Example Predictions
+## Sample Images
+
+A few example images used for testing and demonstration are included in the `Images/` folder of this repository.
+
+You can view the folder directly on GitHub here:  
+[View Images Folder](./Images/)
+
+**Example images:**
+
+![Caption 1](./Images/caption_1.png)  
+![Caption 2](./Images/caption_2.png)  
+![Caption 3](./Images/caption_3.png)  
+![Caption 4](./Images/caption_4.png)  
 
 
 
