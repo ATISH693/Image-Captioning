@@ -92,11 +92,10 @@ You can view the folder directly on GitHub here:
 [View Images Folder](./Images/)
 
 **Example images:**
-
-![Caption 1](./Images/caption_1.png)  
-![Caption 2](./Images/caption_2.png)  
-![Caption 3](./Images/caption_3.png)  
-![Caption 4](./Images/caption_4.png)  
+<img src="./Images/caption_1.png" alt="Caption 1" width="200"/>  
+<img src="./Images/caption_2.png" alt="Caption 2" width="200"/>  
+<img src="./Images/caption_3.png" alt="Caption 3" width="200"/>  
+<img src="./Images/caption_4.png" alt="Caption 4" width="200"/>  
 
 
 
