@@ -54,7 +54,7 @@ Performance is evaluated using **BLEU** and **METEOR** scores on a subset of the
 
 ## Evaluation Metrics
 
-### BLEU (Bilingual Evaluation Understudy)
+### 1.BLEU (Bilingual Evaluation Understudy)
 Measures **n-gram overlap** between generated and reference captions.
 
 **Results:**  
@@ -63,7 +63,7 @@ Measures **n-gram overlap** between generated and reference captions.
 - **BLEU-3**: 0.37  
 - **BLEU-4**: 0.26  
 
-### METEOR (Metric for Evaluation of Translation with Explicit ORdering)
+### 2.METEOR (Metric for Evaluation of Translation with Explicit ORdering)
 Considers **recall, stemming, and synonyms**, making it more semantic than BLEU.
 
 **METEOR:** 0.40  
